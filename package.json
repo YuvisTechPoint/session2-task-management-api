@@ -1,12 +1,13 @@
 {
   "name": "personal-task-management-api",
   "version": "1.0.0",
-  "description": "A comprehensive RESTful API for personal task management with advanced analytics",
+  "description": "A comprehensive RESTful API for personal task management with advanced analytics - Built for Keploy API Fellowship Session 2",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-api": "node test-api.js"
   },
   "keywords": [
     "task-management",
@@ -15,9 +16,11 @@
     "express",
     "mongodb",
     "analytics",
-    "rest-api"
+    "rest-api",
+    "keploy-fellowship",
+    "session-2"
   ],
-  "author": "API Fellowship Session 2",
+  "author": "Your Name - Keploy API Fellowship Session 2",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
